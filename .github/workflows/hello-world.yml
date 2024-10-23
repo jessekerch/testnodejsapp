@@ -8,5 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Team5 Hello World JS Action
-        uses: jessekerch/hello-world-action@helloworld
-            
+        uses: jessekerch/hello-world-action@v2
