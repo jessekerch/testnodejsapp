@@ -1,0 +1,14 @@
+name: Hello World!
+on:
+  workflow_dispatch
+
+jobs:
+  push_to_registry:
+    name: Checkout and then Say Hello from Team5!
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v3
+      - name: Team5 Hello World JS Action
+        uses: jessekerch/hello-world-action@helloworld
+            
